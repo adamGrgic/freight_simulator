@@ -1,0 +1,79 @@
+The idea of this project is to create a game-like scenario for managing freight
+companies.
+
+
+Level 1 - Start as a single freight company
+    + run a single freight services company out of <place>
+    + have a set budget
+    + set profit goals
+    + methods of transportation
+    +
+
+In the background, goods and services are being exchanged
+businesses open and close regularly
+    - should get a database of industries
+    - find out which businesses could be good demos
+
+
+    - BusinessEntity
+        + business_id
+        + (abstracted probably) chance to make sale / transaction
+        + employees
+        + industry
+
+    - Population
+        * number of people in the game
+
+
+    - Industries
+        + Farming / Agriculture
+        + Finance and Business
+        + Healthcare and Pharma
+        + Manufacturing and Industrial
+        + Retail and Consumer Goods
+
+
+    - Services  (General)
+        + Freight Truck
+        + Air
+        + Hypersonic missle (late game)
+        + Bus
+        + Train
+        + Boat
+        +
+
+    - External Factors
+        + Gas prices
+        + Road taxes
+        + Employment
+        + Armed robbery / theft
+        + Climate
+        + Government
+
+
+    - Character roles
+        * give you base advantages
+            -> Ex: lone tech nerd ceo -> better tech efficiency, labor
+            efficiency is slightly worse
+            -> shrewd business man -> labor efficiency is better , people are
+            more likely to leave
+            -> cult leader -> slower start up, 'stickier' client base
+
+
+
+(Sidenote: lemonade could be a good game idea for python)
+
+Offer variety of transportation platforms (like buses, airplanes, boats, etc)
+
+
+Have other freight companies available as competition
+
+Create stages like in Tropico where you're dependent on the crown in the first
+age then eventually move on and do your own dang thing
+
+
+
+
+Ideas for later stage:
+    - hire security to protect cargo
+    - relationship with government
